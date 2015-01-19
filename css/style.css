@@ -1,3 +1,13 @@
+#index{
+	background-color: #B0C5CC;
+}
+#questNum{
+	background-color: #B5DCFF;
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 1);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 1);
+	font-family: 
+
+}
 .main {
 	position: relative;
 	border-top-left-radius: 50px;
@@ -12,7 +22,7 @@
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	text-align: center;
-	background-color: #D0FEFF;
+	background-color: #DCF7FF;
 	height: 400px;
 	width: 600px;
 	margin-left: auto;
@@ -27,26 +37,13 @@
 	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .5);
 	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .5);
 }
-ul.choices {
-	padding: 3em;
-	list-style: none;
-	text-align: center;
-	height: 3em;
-	border-color: black;
-}
-
-ul.choices li{
-	-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .5);
-	-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .5);
-	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .5);
-	display: inline-block;
-	border: 1px solid black;
-	padding: 1.5em 1.5em 1.5em 1.5em;
-	font-size: .75em;
-	color: black;
+ul {
+	text-align: left;
 }
 
 h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
 	background-color: #83FCFF;
 	margin-left: 150px;
 	padding: 1.5em;
@@ -54,14 +51,19 @@ h2 {
 	border-radius: 50px;
 	width: 10em;
 }
-.button {
-	background-color: #AAECFF;
-	border-color: #AAECFF;
-	height: 50px;
-	width: 300px;
-	margin-top: 1px;
-	float:left;
-	border-radius: 30px;
-	border: none;
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: lighter;
+	padding-left: 40px;
+	padding-top: 20px;
 }
+#add, #next, #new, #begin {
+	height: 30px;
+	width: 125px;
+	margin:11px;
+}
+#score{
+	float: right;
+}
+
 
