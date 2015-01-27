@@ -1,69 +1,133 @@
-#index{
-	background-color: #B0C5CC;
+body {
+	background-image: url('http://www.hdwallpapers.in/walls/13_star_us_flag-HD.jpg');
+	background-size: auto;
+	background-repeat: no-repeat;
 }
-#questNum{
-	background-color: #B5DCFF;
-	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 1);
-	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 1);
-	font-family: 
 
+#title {
+	font-size: 3em;
+	line-height: 12vh;
+	margin: 1.5em;
 }
-.main {
-	position: relative;
-	border-top-left-radius: 50px;
-	border-top-right-radius: 50px;
-	height: 600px;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#question{
-	position: relative;
-	border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+
+#startButton {
+	height: 90vh;
+	width: 100%;
 	text-align: center;
-	background-color: #DCF7FF;
-	height: 400px;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 4px, 4px, 50px, 50px;
-	-webkit-border-radius: 4px, 4px, 50px, 50px;
-	-moz-border-radius: 4px, 4px, 50px, 50px;
-	-o-border-radius: 4px, 4px, 50px, 50px;
-	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .5);
-	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .5);
-	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .5);
-}
-ul {
-	text-align: left;
+	color: black;
+	font-family: 'Meddon', cursive;
 }
 
-h2 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-weight: bold;
-	background-color: #83FCFF;
-	margin-left: 150px;
-	padding: 1.5em;
+#startButton li {
+	float: left;
+	height: 90vh;
+	width: 33%;
+	line-height: 20vh;
+}
+
+#startQuiz {
+	width: 250px;
+	height: 150px;
 	border: none;
-	border-radius: 50px;
-	width: 10em;
-}
-h3 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-weight: lighter;
-	padding-left: 40px;
-	padding-top: 20px;
-}
-#add, #next, #new, #begin {
-	height: 30px;
-	width: 125px;
-	margin:11px;
-}
-#score{
-	float: right;
+	border-radius: 10px;
+	background-color: #3C070F;
+	font-family: 'Meddon', cursive;
+	font-size: 2em;
+	color: white;
+	margin: 0 auto;
 }
 
+#quizPaper {
+	display: none;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+} 
 
+#quizPaper > li {
+	float: left;
+	height: 100vh;
+	line-height: 100vh;
+	margin: 0 10px;
+}
+
+#quizPaper > li:nth-child(odd) {
+	width: 15%;
+}
+
+#paper {
+	background-image: url('http://www.myfreetextures.com/wp-content/uploads/2011/06/old-and-worn-parchment-paper.jpg');
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 65%;
+	margin: 0 auto;
+	height: 100vh;
+	font-family: 'Meddon', cursive;
+}
+
+#quizChoices {
+	width: 90%;
+	text-align: left;
+	line-height: 50px;
+	margin: 0 auto;
+	font-size: 1.2em;
+	padding: 0 2em;
+}
+
+#actualQuestion {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 1em 0.25em 1em 0;
+}
+
+#quizChoices li > input {
+	margin-right: 1em;
+}
+
+#submitAnswer {
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: #3C070F;
+	font-family: 'Meddon', cursive;
+	font-size: 1em;
+	color: white;
+	margin: 10px auto;
+}
+
+#yourScore {
+	font-family: 'Meddon', cursive;
+	font-size: 1em;
+	color: white;
+	margin-top: .5em;
+	line-height: 10vh;
+}
+
+#quizChoices #finalScore {
+	text-align: center;
+}
+
+#finalScore {
+	font-size: 2em;
+	text-align: center;
+	margin: 1em 0.25em 1em 0;
+}
+
+#centerButton {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#tryAgain {
+	width: 200px;
+	height: 70px;
+	border: none;
+	border-radius: 10px;
+	background-color: #3C070F;
+	font-family: 'Meddon', cursive;
+	font-size: 1.2em;
+	color: black;
+	margin: 0 auto;
+}
