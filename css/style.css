@@ -26,6 +26,8 @@ body {
 }
 
 #startQuiz {
+	left: auto;
+	right: auto;
 	width: 250px;
 	height: 150px;
 	border: none;
